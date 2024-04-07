@@ -3,7 +3,8 @@ getRoad = {
 
 	_roadInfo = getRoadInfo _roadObject;
 	_connectedRoads = roadsConnectedTo _roadObject;
-
+	// [Object,f,g,h,x,y,cost,attached roads, previous]
+	// [0,1,2,3,5,6,7,8,9]
 	[_roadObject,0,0,0, _roadInfo#6#0, _roadInfo#6#1, _roadInfo#9, _connectedRoads,objNull];
 };
 

@@ -41,6 +41,7 @@ while {count openSet > 0} do {
 			continue;
 		};
 
+		// _tempG = _current#2 + _current#6 + [_current#4,_current#5] call treeCalculator;
 		_tempG = _current#2 + _current#6;
 
 		if(_neighbor#0 call InOpenSet) then {
